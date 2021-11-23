@@ -1,0 +1,136 @@
+@media(max-width: 1200px) {
+    .main__blackwidow-video {
+        width: 100%;
+    }
+
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .main__films-items,
+    .main__collections-items {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .main__films-item,
+    .main__collections-item {
+        margin-top: 15px;
+    }
+}
+
+@media(max-width: 992px) {
+    .main__series-item:nth-of-type(1) {
+        min-height: 400px;
+    }
+
+    .main__series-description {
+        margin: 15px 0;
+    }
+}
+
+
+@media(max-width: 768px) {
+    .header__content {
+        height: 500px;
+    }
+
+    .header__content-img {
+        height: 100%;
+    }
+
+    .header__content-title {
+        font-size: 55px;
+        line-height: 50px;
+    }
+
+    .header__content-description {
+        margin-bottom: 20px;
+    }
+
+    .main__series-item:nth-of-type(2) {
+        grid-column: span 4;
+    }
+
+    .main__series-item {
+        grid-column: span 2;
+    }
+
+    .main__blackwidow {
+        height: 500px;
+    }
+    .main__blackwidow-video {
+        height: 100%;
+    }
+}
+
+@media(max-width: 576px) {
+    .header__nav-content {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+
+    .header__nav-link::after {
+        display: none;
+    }
+
+    .footer__content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 480px) {
+    .header__content-title {
+        font-size: 45px;
+        margin-bottom: 15px;
+    }
+
+    .main__blackwidow-img {
+        width: 100%;
+    }
+
+    .main__series-item {
+        grid-column: span 4;
+    }
+
+    .main__series-item:nth-of-type(2) {
+        grid-row: span 1;
+    }
+
+    .main__series-item:nth-of-type(1) .main__series-description, .main__series-item:nth-of-type(1) .main__series-link {
+        display: none;
+    }
+
+    .main__series-item:nth-of-type(1) .main__films-icon {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .main__series-item:nth-of-type(1) {
+        min-height: 0;
+        grid-row: span 1;
+    }
+
+    .main__series-item:nth-of-type(1) .main__series-title {
+        font-size: 24px;
+        line-height: 27px;
+    }
+
+    .header__nav-link {
+        margin-left: 20px;
+        margin-bottom: 15px;
+    }
+
+    .header__nav-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__content-text {
+        text-align: center;
+        margin-top: 15px;
+    }
+} 
